@@ -66,7 +66,7 @@ class NetworkDataExtract:
 
 
 if __name__ == "__main__":
-    FILE_PATH = "Network_data/phisingData.csv"
+    FILE_PATH = "temp_network_data/phisingData.csv"
     Database = "NetworkSecurityProject"
     Collection = "NetworkData"
 

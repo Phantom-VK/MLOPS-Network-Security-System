@@ -2,7 +2,7 @@ import logging
 import os
 from datetime import datetime
 
-from project_config import PROJECT_ROOT
+from networksecurity.constant.training_pipeline import PROJECT_ROOT
 
 LOG_FILE = f"{datetime.now().strftime("%d_%m_%Y_%H:%M:%S")}.log"
 logs_path = os.path.join(PROJECT_ROOT, "logs", f"{datetime.now().strftime("%d_%m_%Y_%H:%M")}")
