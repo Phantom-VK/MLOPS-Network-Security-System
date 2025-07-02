@@ -9,7 +9,6 @@ NetworkSecurity~=0.0.1
 scikit-learn~=1.7.0
 dill
 pyyaml
-
+scipy~=1.16.0
 # -e .
 
-scipy~=1.16.0
