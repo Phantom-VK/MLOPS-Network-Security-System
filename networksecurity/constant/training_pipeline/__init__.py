@@ -16,6 +16,9 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
 TRAIN_FILE_NAME: str = "train.csv"
 TEST_FILE_NAME: str = "test.csv"
 
+SAVED_MODE_DIR = os.path.join("saved_model")
+
+
 
 """
 Data Ingestion Related Constants and File paths
