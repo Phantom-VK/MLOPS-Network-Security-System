@@ -5,7 +5,6 @@ pymongo
 pymongo[srv]
 certifi~=2025.6.15
 setuptools~=80.9.0
-NetworkSecurity~=0.0.1
 scikit-learn~=1.7.0
 dill~=0.4.0
 pyyaml~=6.0.2
