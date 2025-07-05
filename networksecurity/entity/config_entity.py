@@ -7,6 +7,7 @@ from networksecurity.constant import  training_pipeline
 class TrainingPipelineConfig:
 
     def __init__(self, timestamp = datetime.now()):
+        self.model_dir = os.path.join("final_model")
         timestamp = timestamp.strftime("%m_%d_%Y_%H_%M")
         self.pipeline_name = training_pipeline.PIPELINE_NAME
         self.artifact_dir = training_pipeline.ARTIFACT_DIR
